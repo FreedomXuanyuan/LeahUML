@@ -24,7 +24,7 @@
         <mxCell id="ARnbIlMLo6GgX88KTdsv-46" value="调用鲸探 API 获取用户藏品信息" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="274" y="465" width="220" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="ARnbIlMLo6GgX88KTdsv-47" value="显示登录成功，进入主页" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+        <mxCell id="ARnbIlMLo6GgX88KTdsv-47" value="显示登录成功，返回用户所有信息进入主页" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="294" y="820" width="180" height="50" as="geometry" />
         </mxCell>
         <mxCell id="ARnbIlMLo6GgX88KTdsv-48" value="否" style="edgeStyle=elbowEdgeStyle;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" parent="1" source="ARnbIlMLo6GgX88KTdsv-43" target="ARnbIlMLo6GgX88KTdsv-49" edge="1">
@@ -59,7 +59,7 @@
         <mxCell id="ARnbIlMLo6GgX88KTdsv-55" parent="1" source="ARnbIlMLo6GgX88KTdsv-42" target="ARnbIlMLo6GgX88KTdsv-43" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="ARnbIlMLo6GgX88KTdsv-58" style="exitX=0.5;exitY=1;exitDx=0;exitDy=0;" parent="1" source="OHjfD2tfNT7gJKa3IaDE-17" edge="1">
+        <mxCell id="ARnbIlMLo6GgX88KTdsv-58" style="exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="OHjfD2tfNT7gJKa3IaDE-17" target="ARnbIlMLo6GgX88KTdsv-51" edge="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="384" y="1010" as="targetPoint" />
           </mxGeometry>
@@ -208,9 +208,6 @@
             <mxPoint x="550" y="1000" as="sourcePoint" />
             <mxPoint x="710" y="960" as="targetPoint" />
           </mxGeometry>
-        </mxCell>
-        <mxCell id="OHjfD2tfNT7gJKa3IaDE-50" value="返回用户所有信息" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="324" y="1010" width="120" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
