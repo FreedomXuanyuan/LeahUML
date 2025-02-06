@@ -4,14 +4,25 @@
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="PFT40h1vqoYcBrGzIwru-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="PFT40h1vqoYcBrGzIwru-1" target="PFT40h1vqoYcBrGzIwru-2" edge="1">
+        <mxCell id="PFT40h1vqoYcBrGzIwru-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" target="PFT40h1vqoYcBrGzIwru-2" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="320" y="82" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ARnbIlMLo6GgX88KTdsv-5" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="PFT40h1vqoYcBrGzIwru-2" target="ARnbIlMLo6GgX88KTdsv-4">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="PFT40h1vqoYcBrGzIwru-1" value="" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="260" y="40" width="120" height="60" as="geometry" />
+        <mxCell id="PFT40h1vqoYcBrGzIwru-2" value="进入登录页面" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="260" y="112" width="120" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="PFT40h1vqoYcBrGzIwru-2" value="" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="260" y="210" width="120" height="60" as="geometry" />
+        <mxCell id="ARnbIlMLo6GgX88KTdsv-2" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="ARnbIlMLo6GgX88KTdsv-1" target="PFT40h1vqoYcBrGzIwru-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ARnbIlMLo6GgX88KTdsv-1" value="开始" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.terminator;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="270" y="32" width="100" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="ARnbIlMLo6GgX88KTdsv-4" value="输入手机号以及相关信息" style="shape=parallelogram;html=1;strokeWidth=2;perimeter=parallelogramPerimeter;whiteSpace=wrap;rounded=1;arcSize=12;size=0.23;" vertex="1" parent="1">
+          <mxGeometry x="230" y="182" width="180" height="50" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
