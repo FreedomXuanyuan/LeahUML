@@ -129,18 +129,10 @@
             <mxPoint x="160" y="720" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="OHjfD2tfNT7gJKa3IaDE-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="OHjfD2tfNT7gJKa3IaDE-5" target="OHjfD2tfNT7gJKa3IaDE-1">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="OHjfD2tfNT7gJKa3IaDE-7" value="是" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="OHjfD2tfNT7gJKa3IaDE-6">
-          <mxGeometry x="0.5267" y="1" relative="1" as="geometry">
-            <mxPoint x="-1" y="-21" as="offset" />
-          </mxGeometry>
-        </mxCell>
         <mxCell id="OHjfD2tfNT7gJKa3IaDE-5" value="是否拥有藏品" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="342" y="603" width="84" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="OHjfD2tfNT7gJKa3IaDE-8" value="显示未拥有藏品，无法登录" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="OHjfD2tfNT7gJKa3IaDE-8" value="显示未拥有藏品，无法登录，忽略该用户信息" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="90" y="860" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="OHjfD2tfNT7gJKa3IaDE-13" value="否" style="edgeStyle=elbowEdgeStyle;entryX=0.967;entryY=0.397;entryDx=0;entryDy=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryPerimeter=0;" edge="1" parent="1" source="OHjfD2tfNT7gJKa3IaDE-5" target="OHjfD2tfNT7gJKa3IaDE-8">
@@ -171,6 +163,45 @@
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="140" y="760" as="sourcePoint" />
             <mxPoint x="150" y="820" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="OHjfD2tfNT7gJKa3IaDE-23" value="&amp;nbsp;用户的登录账号为鲸探手机号（鲸探拥有藏品的账号）" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.document2;whiteSpace=wrap;size=0.25;" vertex="1" parent="1">
+          <mxGeometry x="540" y="120" width="164" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="OHjfD2tfNT7gJKa3IaDE-26" value="" style="endArrow=none;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="ARnbIlMLo6GgX88KTdsv-42" target="OHjfD2tfNT7gJKa3IaDE-23">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="480" y="260" as="sourcePoint" />
+            <mxPoint x="530" y="210" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="OHjfD2tfNT7gJKa3IaDE-28" value="数据库中没有该用户的信息，即注册" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.document2;whiteSpace=wrap;size=0.25;" vertex="1" parent="1">
+          <mxGeometry x="540" y="250" width="100" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="OHjfD2tfNT7gJKa3IaDE-29" value="" style="endArrow=none;html=1;rounded=0;exitX=1;exitY=0;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="ARnbIlMLo6GgX88KTdsv-43" target="OHjfD2tfNT7gJKa3IaDE-28">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="460" y="350" as="sourcePoint" />
+            <mxPoint x="510" y="300" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="OHjfD2tfNT7gJKa3IaDE-30" value="将用户数据写入数据库" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="454" y="653" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="OHjfD2tfNT7gJKa3IaDE-31" value="是" style="edgeStyle=elbowEdgeStyle;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="OHjfD2tfNT7gJKa3IaDE-5" target="OHjfD2tfNT7gJKa3IaDE-30">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="760" y="740" as="sourcePoint" />
+            <mxPoint x="624" y="996" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="514" y="620" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="OHjfD2tfNT7gJKa3IaDE-32" value="" style="edgeStyle=elbowEdgeStyle;entryX=1;entryY=0.5;entryDx=0;entryDy=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="OHjfD2tfNT7gJKa3IaDE-30" target="OHjfD2tfNT7gJKa3IaDE-1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="510" y="710" as="sourcePoint" />
+            <mxPoint x="598" y="722" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="514" y="700" />
+            </Array>
           </mxGeometry>
         </mxCell>
       </root>
